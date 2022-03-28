@@ -1,5 +1,5 @@
 {
-  "name" : "nia/collection-queue-memcached",
+  "name" : "v1o/collection-queue-memcached",
   "description" : "Implementation of the nia queue component using memcached.",
   "require" : {
     "php" : ">=7.0.0",

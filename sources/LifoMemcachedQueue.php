@@ -121,7 +121,7 @@ class LifoMemcachedQueue implements QueueInterface
      *
      * @see \Nia\Collection\Queue\QueueInterface::dequeue()
      */
-    public function dequeue()
+    public function dequeue($delay = null)
     {
         $id = $this->memcached->decrement($this->queueName . '--max-enqueued');
 

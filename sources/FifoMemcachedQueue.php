@@ -113,7 +113,7 @@ class FifoMemcachedQueue implements QueueInterface
      *
      * @see \Nia\Collection\Queue\QueueInterface::dequeue()
      */
-    public function dequeue($delay)
+    public function dequeue($delay = null)
     {
         $maxEnqueued = $this->memcached->get($this->queueName . '--max-enqueued');
 

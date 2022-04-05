@@ -4,7 +4,7 @@
   "require" : {
     "php" : ">=7.0.0",
     "ext-memcached" : "*",
-    "v1o/collection-queue" : "*"
+    "v1o/collection-queue" : "1.0.5"
   },
   "license" : "MIT",
   "keywords" : [ "nia", "queue", "stack", "fifo", "lifo", "memcache", "memcached", "race", "condition", "worker", "batch", "job" ],
